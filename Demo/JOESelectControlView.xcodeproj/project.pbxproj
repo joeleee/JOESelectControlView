@@ -13,6 +13,7 @@
 		15F15FAD1E6813080070A344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F15FAB1E6813080070A344 /* Main.storyboard */; };
 		15F15FAF1E6813080070A344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F15FAE1E6813080070A344 /* Assets.xcassets */; };
 		15F15FB21E6813080070A344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F15FB01E6813080070A344 /* LaunchScreen.storyboard */; };
+		15F15FBC1E6813E30070A344 /* JOESelectControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F15FBB1E6813E30070A344 /* JOESelectControlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		15F15FAE1E6813080070A344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15F15FB11E6813080070A344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15F15FB31E6813080070A344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F15FBA1E6813E30070A344 /* JOESelectControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOESelectControlView.h; sourceTree = "<group>"; };
+		15F15FBB1E6813E30070A344 /* JOESelectControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOESelectControlView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		15F15F961E6813080070A344 = {
 			isa = PBXGroup;
 			children = (
+				15F15FB91E6813E30070A344 /* src */,
 				15F15FA11E6813080070A344 /* JOESelectControlView */,
 				15F15FA01E6813080070A344 /* Products */,
 			);
@@ -77,6 +81,16 @@
 				15F15FA31E6813080070A344 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15F15FB91E6813E30070A344 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				15F15FBA1E6813E30070A344 /* JOESelectControlView.h */,
+				15F15FBB1E6813E30070A344 /* JOESelectControlView.m */,
+			);
+			name = src;
+			path = ../src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +168,7 @@
 				15F15FAA1E6813080070A344 /* ViewController.m in Sources */,
 				15F15FA71E6813080070A344 /* AppDelegate.m in Sources */,
 				15F15FA41E6813080070A344 /* main.m in Sources */,
+				15F15FBC1E6813E30070A344 /* JOESelectControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +329,7 @@
 				15F15FB81E6813080070A344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
